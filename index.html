@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/aec7302714.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/jquery.rateyo.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_top">
+            <div class="container">
+                <div class="header_top-inner">
+                    <nav class="menu">
+                        <button class="menu_btn">
+                            <div class="menu_btn-line"></div>
+                            <div class="menu_btn-line"></div>
+                            <div class="menu_btn-line"></div>
+                        </button>
+                        <ul class="menu_list">
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">
+                                    Shops
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">
+                                    Stocks
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">
+                                    Shipping & Payment
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="logo" href="#">
+                        <img class="logo_img" src="images/shop-icon-png-5.jpg" width="100px" height="100px" alt="">
+                    </a>
+                    <div class="header_box">
+                        <p class="header_address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            60 Jefferson St. Brooklyn, NY 11218
+                        </p>
+                        <ul class="user-list">
+                            <li class="user-list_item">
+                                <a href="" class="user-list_link">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+                            </li>
+                            <li class="user-list_item">
+                                <a href="" class="user-list_link">
+                                    <i class="fas fa-user-circle"></i>
+                                </a>
+                            </li>
+                            <li class="user-list_item">
+                                <a href="" class="user-list_link cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <p class="cart_num">1</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="menu-mobile_list">
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-user-circle"></i>
+                    <p>Sign In</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-user-circle"></i>
+                    <p>Registration</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-heart"></i>
+                    <p>Favorites</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>Cart</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-store-alt"></i>
+                    <p>Shops</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-percent"></i>
+                    <p>Shares</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-shipping-fast"></i>
+                    <p>Shipping and payment</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Electronics</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Computers</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Accessories</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Software</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Arts</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Games</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Movies</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Books</p>
+                </a>
+            </li>
+        </ul>
+
+        <div class="menu_mobile-linewrapper">
+            <ul class="menu_mobile-line">
+                <li class="menu_item">
+                    <a class="menu_link" href="#">
+                        Shops
+                    </a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu_link" href="#">
+                        Shares
+                    </a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu_link" href="#">
+                        Shipping and payment
+                    </a>
+                </li>
+            </ul>            
+        </div>
+
+        <div class="header_bottom">
+            <div class="container">
+                <ul class="menu-categories">
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Electronics
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Computers
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Accessories
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Software
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Arts
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Games
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Movies
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Books
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="banner-section page-section">
+        <div class="container">
+            <div class="banner-section_inner">
+                <div class="banner-section_slider">
+                    <a class="banner-section_slider-item" href="#">
+                        <img class="banner-section_slider-img" src="images/banner-image1.jpg" width="900px" height="600px" alt="">
+                    </a>
+                    <a class="banner-section_slider-item" href="#">
+                        <img class="banner-section_slider-img" src="images/banner-image1.jpg" width="900px" height="600px"alt="">
+                    </a>
+                    <a class="banner-section_slider-item" href="#">
+                        <img class="banner-section_slider-img" src="images/banner-image1.jpg" width="900px" height="600px"  alt="">
+                    </a>
+                    <a class="banner-section_slider-item" href="#">
+                        <img class="banner-section_slider-img" src="images/banner-image1.jpg" width="900px" height="600px" alt="">
+                    </a>
+                </div>
+                <a class="banner-section_item sale-item">
+                    <div class="sale-item_top">
+                        <div class="sale-item_info">
+                            Stock
+                        </div>
+                        <div class="sale-item_price">
+                            <div class="price sale-item_price-new">1.520</div>
+                            <div class="price sale-item_price-old">1.999</div>
+                        </div>
+                    </div>
+                    <img class="sale-item_img" src="images/content/image-sale.jpg" width="200px" alt="" >
+                    <h5 class="sale-item_title">
+                         Gaming Laptop Razer Blade 15 2020
+                    </h5>
+                    <div class="sale-item_footer">
+                        The promotion is valid until
+                        <span>2021.01.28</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <div class="search page-section">
+        <div class="container">
+            <div class="search_inner">
+                <div class="search_tabs tabs-wrapper">
+                    <div class="mobile-overflow">
+                        <a class="tab search_tabs-item tab--active" href="#tab-1">Search by product description</a>
+                        <a class="tab search_tabs-item" href="#tab-2">Search by product name</a>
+                    </div>
+                </div>
+                <div class="search_content">
+                    <div id="tab-1" class="tabs-content search_content-item tabs-content--active">
+                        <form class="search_content-form">
+                            <input class="search_content-input" type="text" placeholder="Enter product description">
+                            <button class="search_content-btn" type="submit">Search</button>
+                        </form>
+                    </div>
+                    <div id="tab-2" class="tabs-content search_content-item">
+                        <form class="search_content-form">
+                            <input class="search_content-input" type="text" placeholder="Enter product name">
+                            <button class="search_content-btn" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="categories page-section">
+        <div class="container">
+            <div class="categories_inner">
+                <a class="categories_item" href="#">
+                    <div class="categories_item-info">
+                        <h4 class="categories_item-title">Electronics</h4>
+                        <p class="categories_item-text">
+                            More Details
+                        </p>
+                    </div>
+                    <div class="categories_item-img">
+                        <img src="images/category_1.webp" width="195px">
+                    </div>
+                </a>
+                <a class="categories_item" href="#">
+                    <div class="categories_item-info">
+                        <h4 class="categories_item-title">Computers</h4>
+                        <p class="categories_item-text">
+                            More Details
+                        </p>
+                    </div>
+                    <div class="categories_item-img">
+                        <img src="images/category_2.webp" width="240px">
+                    </div>
+                </a>
+                <a class="categories_item" href="#">
+                    <div class="categories_item-info">
+                        <h4 class="categories_item-title">Music</h4>
+                        <p class="categories_item-text">
+                            More Details
+                        </p>
+                    </div>
+                    <div class="categories_item-img">
+                        <img src="images/category_3.webp" width="200px">
+                    </div>
+                </a>
+                <a class="categories_item" href="#">
+                    <div class="categories_item-info">
+                        <h4 class="categories_item-title">Software</h4>
+                        <p class="categories_item-text">
+                            More Details
+                        </p>
+                    </div>
+                    <div class="categories_item-img">
+                        <img src="images/category_4.webp" width="200px">
+                    </div>
+                </a>
+                <a class="categories_item" href="#">
+                    <div class="categories_item-info">
+                        <h4 class="categories_item-title">Arts</h4>
+                        <p class="categories_item-text">
+                            More Details
+                        </p>
+                    </div>
+                    <div class="categories_item-img">
+                        <img src="images/category_5.webp" width="200px">
+                    </div>
+                </a>
+                <a class="categories_item" href="#">
+                    <div class="categories_item-info">
+                        <h4 class="categories_item-title">Games</h4>
+                        <p class="categories_item-text">
+                            More Details
+                        </p>
+                    </div>
+                    <div class="categories_item-img">
+                        <img src="images/category_6.webp" width="200px">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="products_inner">
+                <h4 class="product-title">Popular goods</h4>
+                <div class="tabs-wrapper ">
+                    <div class="tabs products_tabs mobile-overflow">
+                        <a class="tab products_tab tab--active" href="#product-tab-1">Electronics</a>
+                        <a class="tab products_tab" href="#product-tab-2">Computers</a>
+                        <a class="tab products_tab" href="#product-tab-3">Accessories</a>
+                        <a class="tab products_tab" href="#product-tab-4">Software</a>
+                        <a class="tab products_tab" href="#product-tab-5">Arts</a>
+                        <a class="tab products_tab" href="#product-tab-6">Games</a>
+                    </div>
+                </div>
+                <div class="tabs-container products_container">
+                    <div id="product-tab-1" class="tabs-content products_content tabs-content--active">
+                        <div class="product-slider">
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item product-item--sale" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper product-item_not-available">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item product-item--sale" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper product-item_not-available">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item product-item--sale" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper product-item_not-available">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item product-item--sale" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="product-tab-2" class="tabs-content products_content">
+                        <div class="product-slider">
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item product-item--sale" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper product-item_not-available">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                    </div>
+                    <div id="product-tab-3" class="tabs-content products_content">
+                        Slider3
+                    </div>
+                    <div id="product-tab-4" class="tabs-content products_content">
+                        Slider4
+                    </div>
+                    <div id="product-tab-5" class="tabs-content products_content">
+                        Slider5
+                    </div>
+                    <div id="product-tab-6" class="tabs-content products_content">
+                        Slider6
+                    </div>
+                    <div class="product_more">
+                        <a class="product_more-link" href="#">Show more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="banner">
+        <div class="container">
+            <a class="banner_link" href="#">
+                <img src="images/content/big-sale.jpg" alt="">
+            </a>
+        </div>
+    </div>
+
+    <section class="products">
+        <div class="container">
+            <div class="products_inner">
+                <h4 class="product-title">Buy with these goods</h4>
+                <div class="tabs-wrapper">
+                    <div class="tabs products_tabs mobile-overflow">
+                        <a class="tab products_tab tab--active" href="#popular-tab-1">Electronics</a>
+                        <a class="tab products_tab" href="#popular-tab-2">Computers</a>
+                        <a class="tab products_tab" href="#popular-tab-3">Accessories</a>
+                        <a class="tab products_tab" href="#popular-tab-4">Software</a>
+                        <a class="tab products_tab" href="#popular-tab-5">Arts</a>
+                        <a class="tab products_tab" href="#popular-tab-6">Games</a>
+                    </div>
+                
+                </div>
+                <div class="tabs-container products_container">
+                    <div id="popular-tab-1" class="tabs-content products_content tabs-content--active">
+                        <div class="product-slider">
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item product-item--sale" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper product-item_not-available">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item product-item--sale" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper product-item_not-available">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item product-item--sale" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper product-item_not-available">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item product-item--sale" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="popular-tab-2" class="tabs-content products_content">
+                        <div class="product-slider">
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item product-item--sale" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-slider_item">
+                                <div class="product-item_wrapper product-item_not-available">
+                                    <button class="product-item_favorite" type="button"></button>
+                                    <button class="product-item_basket">
+                                        <img src="images/cart.png" alt="">
+                                    </button>
+                                    <a class="product-item_notify-link" href="#">
+                                        <span>Notify on arrival</span>
+                                    </a>
+                                    <a class="product-item" href="#">
+                                        <p class="product-item_hover-text">
+                                            View product
+                                        </p>
+                                        <img class="product-item_img" src="images/content/image-sale.jpg" width="200px"  alt="">
+                                        <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                                        <p class="product-item_price">
+                                            1.520$
+                                        </p>
+                                        <p class="product-item_notify-text">
+                                            Not available
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                    <div id="popular-tab-3" class="tabs-content products_content">
+                        Slider3
+                    </div>
+                    <div id="popular-tab-4" class="tabs-content products_content">
+                        Slider4
+                    </div>
+                    <div id="popular-tab-5" class="tabs-content products_content">
+                        Slider5
+                    </div>
+                    <div id="popular-tab-6" class="tabs-content products_content">
+                        Slider6
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="footer_top-inner">
+                    <div class="footer_top-item footer_top-newsletter">
+                        <h6 class="footer_top-title">
+                            Subscribe to our newsletter and learn about promotions faster
+                        </h6>
+                        <form class="footer-form" action="">
+                            <input class="footer-form_input" type="text" placeholder="Input your email">
+                            <button class="submit footer-form_btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="footer_top-item footer_top-itemdrop">
+                        <h6 class="footer_top-title footer_top-drop">
+                            Information
+                        </h6>
+                        <ul class="footer-list">
+                            <li class="footer-list_item">
+                                <a href="#">About company</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">Contacts</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">Promotions</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">Shops</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_top-item">
+                        <h6 class="footer_top-title footer_top-drop">
+                            Online store
+                        </h6>
+
+                        <ul class="footer-list">
+                            <li class="footer-list_item">
+                                <a href="#">Delivery and pickup</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">Payment</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">Return-Exchange</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">News</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="footer_top-item footer_top-social">
+                        <ul class="social-list">
+                            <li class="social-list_item">
+                                <a href="https://www.facebook.com/profile.php?id=100010815976516">
+                                   <i class="fab fa-facebook social-list_icon"></i>
+                                </a>
+                            </li>
+                            <li class="social-list_item">
+                                <a href="#">
+                                    <i class="fab fa-google-plus social-list_icon"></i>
+                                </a>
+                            </li>
+                            <li class="social-list_item">
+                                <a href="https://github.com/funn1k1">
+                                    <i class="fab fa-github social-list_icon"></i>
+                                </a>
+                            </li>
+                            <li class="social-list_item">
+                                <a href="https://t.me/x_unity">
+                                    <i class="fab fa-telegram social-list_icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <a class="footer_bottom-link" href="#">
+                    Contract offer
+                </a>
+                <a class="footer_bottom-link" href="#">
+                    Personal data processing policy
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/slick.js"></script>
+    
+    <script src="js/ion.rangeSlider.min.js"></script>
+    
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/jquery.rateyo.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

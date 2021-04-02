@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/aec7302714.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/jquery.rateyo.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header_top">
+            <div class="container">
+                <div class="header_top-inner">
+                    <nav class="menu">
+                        <button class="menu_btn">
+                            <div class="menu_btn-line"></div>
+                            <div class="menu_btn-line"></div>
+                            <div class="menu_btn-line"></div>
+                        </button>
+                        <ul class="menu_list">
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">
+                                    Shops
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">
+                                    Stocks
+                                </a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="#" class="menu_link">
+                                    Shipping & Payment
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="logo" href="#">
+                        <img class="logo_img" src="images/shop-icon-png-5.jpg" width="100px" height="100px" alt="">
+                    </a>
+                    <div class="header_box">
+                        <p class="header_address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            60 Jefferson St. Brooklyn, NY 11218
+                        </p>
+                        <ul class="user-list">
+                            <li class="user-list_item">
+                                <a href="" class="user-list_link">
+                                    <i class="fas fa-heart"></i>
+                                </a>
+                            </li>
+                            <li class="user-list_item">
+                                <a href="" class="user-list_link">
+                                    <i class="fas fa-user-circle"></i>
+                                </a>
+                            </li>
+                            <li class="user-list_item">
+                                <a href="" class="user-list_link cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <p class="cart_num">1</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="menu-mobile_list">
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-user-circle"></i>
+                    <p>Sign In</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-user-circle"></i>
+                    <p>Registration</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-heart"></i>
+                    <p>Favorites</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>Cart</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-store-alt"></i>
+                    <p>Shops</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-percent"></i>
+                    <p>Shares</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <i class="fas fa-shipping-fast"></i>
+                    <p>Shipping and payment</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Electronics</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Computers</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Accessories</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Software</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Arts</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Games</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Movies</p>
+                </a>
+            </li>
+            <li class="menu-mobile_item">
+                <a class="menu-mobile_link" href="#">
+                    <p>Books</p>
+                </a>
+            </li>
+        </ul>
+
+        <div class="menu_mobile-linewrapper">
+            <ul class="menu_mobile-line">
+                <li class="menu_item">
+                    <a class="menu_link" href="#">
+                        Shops
+                    </a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu_link" href="#">
+                        Shares
+                    </a>
+                </li>
+                <li class="menu_item">
+                    <a class="menu_link" href="#">
+                        Shipping and payment
+                    </a>
+                </li>
+            </ul>            
+        </div>
+
+        <div class="header_bottom">
+            <div class="container">
+                <ul class="menu-categories">
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Electronics
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Computers
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Accessories
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Software
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Arts
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Games
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Movies
+                        </a>
+                    </li>
+                    <li class="menu-categories_item">
+                        <a href="" class="menu-categories_link">
+                            Books
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs_inner mobile-overflow">
+                <ul class="breadcrumbs_list">
+                    <li class="breadcrumbs_list-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="breadcrumbs_list-item">
+                        <span href="#">Electronics</span>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+    </div>
+
+    <section class="catalog">
+        <div class="container">
+            <h2 class="catalog_title">
+                Electronics
+            </h2>
+            <div class="catalog_filter">
+                <div class="catalog_filter-itemsinner mobile-overflow">
+                    <div class="catalog_filter-items">
+                        <button>Iphone</button>
+                        <button>Xiaomi</button>
+                        <button>From 200$</button>
+                        <button>More</button>
+                    </div>
+                </div>
+                <div class="catalog_filter-btn">
+                    <select class="filter-style select-item">
+                        <option value="">By popularity</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                    <button class="catalog_filter-btngrid catalog_filter-button catalog_filter-button--active">
+                        <img src="images/grid-btn.png" alt="">
+                    </button>
+                    <button class="catalog_filter-btnline catalog_filter-button">
+                        <img src="images/line-btn.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="catalog_inner">
+                <div class="aside_btn">
+                    Filter
+                </div>
+                <aside class="catalog_inner-aside aside-filter">
+                    <div class="tabs-wrapper tabs-wrapper--no-scroll aside-filter_tabs">
+                        <div class="tabs">
+                            <a class="tab aside-filter_tab tab--active" href="#filter1">
+                                <span>Parameters</span>
+                            </a>
+                            <a class="tab aside-filter_tab" href="#filter2">
+                                <span>By brand</span>
+                            </a>
+                        </div>
+                    </div>
+                        <div class="tabs-container">
+                            <div id="filter1" class="tabs-content aside-filter_tabs-content tabs-content--active">
+
+                              <form action="aside-filter_form">
+                                  <ul class="aside-filter_list">
+                                      <li class="aside-filter_item-drop">
+                                            <p class="aside-filter_item-title filter_item-drop filter_item-drop--active">Availability</p>
+                                            <div class="aside-filter_content">
+                                                <div class="aside-filter_content-box">
+                                                    <label class="aside-filter_content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        In stock
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter_content-box">
+                                                    <label class="aside-filter_content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        On request
+                                                    </label>
+                                                </div>
+                                            </div>
+                                      </li>
+                                      <li class="aside-filter_item">
+                                        <p class="aside-filter_item-title filter_item-drop filter_item-drop--active">New items</p>
+                                        <div class="aside-filter_content-row aside-filter_content-radio aside-filter_content-mg">
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" name="radio" type="radio">
+                                                    All
+                                                </label>
+                                            </div>
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" name="radio" type="radio">
+                                                    New Items
+                                                </label>
+                                            </div>
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" name="radio" type="radio">
+                                                    Shares
+                                                </label>
+                                            </div>
+                                        </div>
+                                      </li>
+
+                                      <li class="aside-filter_item-drop">
+                                        <p class="aside-filter_item-title filter_item-drop filter_item-drop--active">Price</p>
+                                        <div class="aside-filter_content aside-filter_content-radio aside-filter_content-mg">
+                                            <div class="aside-filter_content-box aside-filter_content-box-price">
+                                                <input type="text" class="js-range-slider" name="my_range" value=""
+                                                data-min="100"
+                                                data-max="4000"
+                                                data-from="1500"
+                                                data-to="2000"
+                                                data-grid="true"
+                                            />
+                                                                                    
+                                            </div>
+                                        </div>
+                                      </li>
+
+                                      
+                                      <li class="aside-filter_item-list">
+                                        <div class="filter_item-list">
+                                            <p class="filter_item-list-title filter_item-list-select">
+                                                Category
+                                            </p>
+                                            <select class="filter-style">
+                                                <option>Electronics</option>
+                                                <option>Computers</option>
+                                                <option>Music</option>
+                                                <option>Software</option>
+                                                <option>Arts</option>
+                                                <option>Games</option>
+                                            </select>
+                                        </div>  
+                                      </li>
+
+                                      <li class="aside-filter_item-list">
+                                        <div class="filter_item-list">
+                                            <p class="filter_item-list-title filter_item-list-select">
+                                                Subcategory
+                                            </p>
+                                            <select class="filter-style">
+                                                <option>Camera</option>
+                                                <option>Headphones</option>
+                                                <option>Video Game Consoles</option>
+                                                <option>Car Electronics</option>
+                                                <option>GPS & Navigation</option>
+                                            </select>
+                                        </div>  
+                                      </li>
+
+                                    <li class="aside-filter_item-drop">
+                                        <p class="aside-filter_item-title filter_item-drop filter_item-drop--active">Model</p>
+                                        <div class="aside-filter_content">
+                                            <input type="text" class="filter-search" placeholder="Input Model name">
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox">
+                                                    IPhone 12
+                                                </label>
+                                            </div>
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox">
+                                                    Xiaomi REDMI NOTE 9 Pro
+                                                </label>
+                                            </div>
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox">
+                                                    Samsung Galaxy S21 Ultra
+                                                </label>
+                                            </div>
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox">
+                                                    Huawei P40 Pro
+                                                </label>
+                                            </div>
+                                            <div class="filter-more">
+                                                <button class="filter-more-btn" type="submit">Show more</button>
+                                           </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="aside-filter_item-drop btn-checked">
+                                        <p class="aside-filter_item-title filter_item-drop filter_item-drop--active">Shares</p>
+                                        <div class="aside-filter_content-row">
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox">
+                                                    <span class="btn-checked_text">SALE</span>
+                                                </label>
+                                            </div>
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox">
+                                                    <span class="btn-checked_text">NEW</span>
+                                                </label>
+                                            </div>
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox">
+                                                    <span class="btn-checked_text">HIT</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="aside-filter_item-drop">
+                                        <p class="aside-filter_item-title filter_item-drop filter_item-drop--active">Countries</p>
+                                        <div class="aside-filter_content">
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox" checked>
+                                                    USA
+                                                </label>
+                                            </div>
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox" checked>
+                                                    Germany
+                                                </label>
+                                            </div>
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox">
+                                                    China
+                                                </label>
+                                            </div>
+                                            <div class="aside-filter_content-box">
+                                                <label class="aside-filter_content-label">
+                                                    <input class="filter-style" type="checkbox">
+                                                    South Korea
+                                                </label>
+                                            </div>
+                                            <div class="filter-more">
+                                                <button class="filter-more-btn" type="submit">Show more</button>
+                                           </div>
+                                        </div>
+                                    </li>
+                                    <li class="aside-filter_item-drop aside-filter_item-btn">
+                                        <button class="filter-btn_send filter-btn_send--active" type="submit">Select</button>
+                                        <p class="filter-extra">Extra options</p>
+                                        <div class="filter-extra-content">More</div>
+                                        <button class="filter-btn_reset" type="submit">Reset filter</button>
+                                    </li>
+                                  </ul>
+                              </form>
+                            </div>
+
+                            <div id="filter2" class="tabs-content aside-filter_tabs-content">
+                                <form action="aside-filter_form">
+                                    <ul class="aside-filter_list">
+                                        <li class="aside-filter_item-drop">
+                                            <p class="aside-filter_item-title filter_item-drop filter_item-drop--active">Brand</p>
+                                            <div class="aside-filter_content">
+                                                <div class="aside-filter_content-box">
+                                                    <label class="aside-filter_content-label">
+                                                        <input class="filter-style" type="checkbox" checked>
+                                                        Xiaomi
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter_content-box">
+                                                    <label class="aside-filter_content-label">
+                                                        <input class="filter-style" type="checkbox" checked>
+                                                        IPhone
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter_content-box">
+                                                    <label class="aside-filter_content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        Razor
+                                                    </label>
+                                                </div>
+                                                <div class="aside-filter_content-box">
+                                                    <label class="aside-filter_content-label">
+                                                        <input class="filter-style" type="checkbox">
+                                                        SteelSeries
+                                                    </label>
+                                                </div>
+                                                <div class="filter-more">
+                                                     <button class="filter-more-btn" type="submit">Show more</button>
+                                                </div>
+                                            </div>
+                                        </li>    
+                                    </ul>
+                                </form>
+                            </div>
+
+                        </div>
+                    </aside>
+                <div class="catalog_inner-list">
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item product-item--sale" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item product-item--sale" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item product-item--sale" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item product-item--sale" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item product-item--sale" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="product-item_wrapper">
+                        <button class="product-item_favorite" type="button"></button>
+                        <button class="product-item_basket">
+                            <img src="images/cart.png" alt="">
+                        </button>
+                        <a class="product-item_notify-link" href="#">
+                            <span>Notify on arrival</span>
+                        </a>
+                        <a class="product-item product-item--sale" href="#">
+                            <p class="product-item_hover-text">
+                                View product
+                            </p>
+                            <img class="product-item_img" src="images/content/iphone12.webp" width="200px"  alt="">
+                            <h4 class="product-item_title">Gaming Laptop Razer Blade 15 2020</h4>
+                            <p class="product-item_price">
+                                2.200$
+                            </p>
+                            <p class="product-item_notify-text">
+                                Not available
+                            </p>
+                        </a>
+                    </div>
+                    <div class="pagination">
+                        <ul class="pagination-list">
+                            <li class="pagination-list_item active">
+                                <a href="#">1</a>
+                            </li>
+                            <li class="pagination-list_item">
+                                <a href="#">2</a>
+                            </li>
+                            <li class="pagination-list_item">
+                                <a href="#">3</a>
+                            </li>
+                            <li class="pagination-list_item">
+                                <a href="#">4</a>
+                            </li>
+                            <li class="pagination-list_item">
+                                <a href="#">5</a>
+                            </li>
+                            <li class="pagination-list_item pagination-list_item--dots">
+                                <span>...</span>
+                            </li>
+                            <li class="pagination-list_item">
+                                <a href="#">11</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="footer_top-inner">
+                    <div class="footer_top-item footer_top-newsletter">
+                        <h6 class="footer_top-title">
+                            Subscribe to our newsletter and learn about promotions faster
+                        </h6>
+                        <form class="footer-form" action="">
+                            <input class="footer-form_input" type="text" placeholder="Input your email">
+                            <button class="submit footer-form_btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="footer_top-item footer_top-itemdrop">
+                        <h6 class="footer_top-title footer_top-drop">
+                            Information
+                        </h6>
+                        <ul class="footer-list">
+                            <li class="footer-list_item">
+                                <a href="#">About company</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">Contacts</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">Promotions</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">Shops</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_top-item">
+                        <h6 class="footer_top-title footer_top-drop">
+                            Online store
+                        </h6>
+
+                        <ul class="footer-list">
+                            <li class="footer-list_item">
+                                <a href="#">Delivery and pickup</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">Payment</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">Return-Exchange</a>
+                            </li>
+                            <li class="footer-list_item">
+                                <a href="#">News</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="footer_top-item footer_top-social">
+                        <ul class="social-list">
+                            <li class="social-list_item">
+                                <a href="https://www.facebook.com/profile.php?id=100010815976516">
+                                   <i class="fab fa-facebook social-list_icon"></i>
+                                </a>
+                            </li>
+                            <li class="social-list_item">
+                                <a href="#">
+                                    <i class="fab fa-google-plus social-list_icon"></i>
+                                </a>
+                            </li>
+                            <li class="social-list_item">
+                                <a href="https://github.com/funn1k1">
+                                    <i class="fab fa-github social-list_icon"></i>
+                                </a>
+                            </li>
+                            <li class="social-list_item">
+                                <a href="https://t.me/x_unity">
+                                    <i class="fab fa-telegram social-list_icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <a class="footer_bottom-link" href="#">
+                    Contract offer
+                </a>
+                <a class="footer_bottom-link" href="#">
+                    Personal data processing policy
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/slick.js"></script>
+    
+    <script src="js/ion.rangeSlider.min.js"></script>
+    
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/jquery.rateyo.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
